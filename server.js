@@ -31,7 +31,7 @@ app.use("/api/v1/category", categoryRoute);
 app.use("/api/v1/product", ProductRoute);
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build", "index.html"));
+  res.sendFile(path.join(__dirname, '/var/task/client/build/index.html'));
 });
 
 // Port
